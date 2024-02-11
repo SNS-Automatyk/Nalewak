@@ -1,0 +1,22 @@
+Open: SET_SERVO SERVO=arm_open_close ANGLE=180
+Close: SET_SERVO SERVO=arm_open_close ANGLE=0
+
+Down: SET_SERVO SERVO=arm_up_down ANGLE=180
+Up: SET_SERVO SERVO=arm_up_down ANGLE=0
+
+Rotate: SET_SERVO SERVO=arm_rotate ANGLE=90
+
+
+Macros:
+ARM_OPEN
+ARM_CLOSE
+
+ARM_DOWN
+ARM_MIDDLE
+ARM_UP
+
+ARM_0
+ARM_45
+ARM_90
+ARM_135
+ARM_180
